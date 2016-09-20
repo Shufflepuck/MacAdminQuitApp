@@ -3,7 +3,7 @@
 MacAdminQuitApp presents the user a dialog box that asks him to quit an application.
 The user can click on "Quit [Application]". After five seconds, the button "Force Quit" will be enabled.
 
-![Example with TextMate](textmate-1.0.png)
+![Example with TextMate](images/textmate-1.0.png)
 
 ## Configuration
 
