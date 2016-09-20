@@ -5,6 +5,8 @@ The user can click on "Quit [Application]". After five seconds, the button "Forc
 
 ![Example with TextMate](images/textmate-1.0.png)
 
+MacAdminQuitApp will return 0 and "success" if application was successfully quit. 
+
 ## Configuration
 
 MacAdminQuitApp expects two configuration items:
