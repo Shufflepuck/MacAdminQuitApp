@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086764B91D8FDF7300F40B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086764B81D8FDF7300F40B89 /* AppDelegate.swift */; };
+		086764BB1D8FDF7300F40B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086764BA1D8FDF7300F40B89 /* Assets.xcassets */; };
+		086764BE1D8FDF7300F40B89 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 086764BC1D8FDF7300F40B89 /* MainMenu.xib */; };
+		086764C81D9103ED00F40B89 /* FTApplicationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086764C71D9103ED00F40B89 /* FTApplicationProtocol.swift */; };
+		086764CA1D91041C00F40B89 /* FTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086764C91D91041C00F40B89 /* FTApp.swift */; };
+		086764CC1D910BEC00F40B89 /* FTBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086764CB1D910BEC00F40B89 /* FTBundle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		086764B51D8FDF7300F40B89 /* MacAdminQuitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacAdminQuitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086764B81D8FDF7300F40B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		086764BA1D8FDF7300F40B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086764BD1D8FDF7300F40B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		086764BF1D8FDF7300F40B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086764C71D9103ED00F40B89 /* FTApplicationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FTApplicationProtocol.swift; path = Model/FTApplicationProtocol.swift; sourceTree = "<group>"; };
+		086764C91D91041C00F40B89 /* FTApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FTApp.swift; path = Model/FTApp.swift; sourceTree = "<group>"; };
+		086764CB1D910BEC00F40B89 /* FTBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FTBundle.swift; path = Model/FTBundle.swift; sourceTree = "<group>"; };
+		086764CE1D911C0700F40B89 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086764B21D8FDF7300F40B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086764AC1D8FDF7300F40B89 = {
+			isa = PBXGroup;
+			children = (
+				086764B71D8FDF7300F40B89 /* MacAdminQuitApp */,
+				086764B61D8FDF7300F40B89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086764B61D8FDF7300F40B89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086764B51D8FDF7300F40B89 /* MacAdminQuitApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086764B71D8FDF7300F40B89 /* MacAdminQuitApp */ = {
+			isa = PBXGroup;
+			children = (
+				086764B81D8FDF7300F40B89 /* AppDelegate.swift */,
+				086764CE1D911C0700F40B89 /* README */,
+				086764CD1D910BFD00F40B89 /* Model */,
+				086764BA1D8FDF7300F40B89 /* Assets.xcassets */,
+				086764BC1D8FDF7300F40B89 /* MainMenu.xib */,
+				086764BF1D8FDF7300F40B89 /* Info.plist */,
+			);
+			path = MacAdminQuitApp;
+			sourceTree = "<group>";
+		};
+		086764CD1D910BFD00F40B89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				086764C71D9103ED00F40B89 /* FTApplicationProtocol.swift */,
+				086764C91D91041C00F40B89 /* FTApp.swift */,
+				086764CB1D910BEC00F40B89 /* FTBundle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086764B41D8FDF7300F40B89 /* MacAdminQuitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086764C21D8FDF7300F40B89 /* Build configuration list for PBXNativeTarget "MacAdminQuitApp" */;
+			buildPhases = (
+				086764B11D8FDF7300F40B89 /* Sources */,
+				086764B21D8FDF7300F40B89 /* Frameworks */,
+				086764B31D8FDF7300F40B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAdminQuitApp;
+			productName = MacAdminQuitApp;
+			productReference = 086764B51D8FDF7300F40B89 /* MacAdminQuitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		086764AD1D8FDF7300F40B89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "François Levaux";
+				TargetAttributes = {
+					086764B41D8FDF7300F40B89 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = EM3ER8T33A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 086764B01D8FDF7300F40B89 /* Build configuration list for PBXProject "MacAdminQuitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 086764AC1D8FDF7300F40B89;
+			productRefGroup = 086764B61D8FDF7300F40B89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086764B41D8FDF7300F40B89 /* MacAdminQuitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086764B31D8FDF7300F40B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086764BB1D8FDF7300F40B89 /* Assets.xcassets in Resources */,
+				086764BE1D8FDF7300F40B89 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086764B11D8FDF7300F40B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086764CA1D91041C00F40B89 /* FTApp.swift in Sources */,
+				086764CC1D910BEC00F40B89 /* FTBundle.swift in Sources */,
+				086764C81D9103ED00F40B89 /* FTApplicationProtocol.swift in Sources */,
+				086764B91D8FDF7300F40B89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		086764BC1D8FDF7300F40B89 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086764BD1D8FDF7300F40B89 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086764C01D8FDF7300F40B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		086764C11D8FDF7300F40B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		086764C31D8FDF7300F40B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EM3ER8T33A;
+				INFOPLIST_FILE = MacAdminQuitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fti.MacAdminQuitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		086764C41D8FDF7300F40B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EM3ER8T33A;
+				INFOPLIST_FILE = MacAdminQuitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fti.MacAdminQuitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086764B01D8FDF7300F40B89 /* Build configuration list for PBXProject "MacAdminQuitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086764C01D8FDF7300F40B89 /* Debug */,
+				086764C11D8FDF7300F40B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086764C21D8FDF7300F40B89 /* Build configuration list for PBXNativeTarget "MacAdminQuitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086764C31D8FDF7300F40B89 /* Debug */,
+				086764C41D8FDF7300F40B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 086764AD1D8FDF7300F40B89 /* Project object */;
+}
