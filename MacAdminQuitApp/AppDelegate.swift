@@ -39,11 +39,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
+        guard let appPath = UserDefaults.standard.value(forKey: "appPath") as? String else {
+            NSLog("ERROR: Cannot read appPath from user defaults. Make sure you specify the path of the app by using -appPath [application] (see README). Exiting.")
+            NSApp.terminate(self)
+            return
+        }
+
         do {
-            let appPath = UserDefaults.standard.value(forKey: "appPath") as? String
-            app = try FTApp(path: appPath!)
+            app = try FTApp(path: appPath)
         } catch FTApp.error.CannotGetBundle {
-            debugPrint("Cannot get application bundle")
+            NSLog("Cannot get application bundle. Make sure you specified an existing application with -appPath (see README). Exiting.")
+            NSApp.terminate(self)
         } catch {
             debugPrint("Unhandled catch")
         }
@@ -112,7 +118,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
         
         if exitSuccessful {
             print("successful")
