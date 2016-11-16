@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import FTApp
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -21,7 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     
     var app: FTApp!
-    var additionalBundleID: FTBundle?
+    var additionalBundleID: FTAppBundle?
     
     var timerToForceQuit: Timer?
     var exitSuccessful: Bool = false
@@ -55,7 +56,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         if let appBundleID = UserDefaults.standard.value(forKey: "appBundleID") as? String {
-            additionalBundleID = FTBundle(bundleID: appBundleID)
+            additionalBundleID = FTAppBundle(bundleID: appBundleID)
         }
 
         // If application is not running, exit early
